@@ -3,14 +3,14 @@ za neku trgovinu putem komandne linije. Nakon što je unos gotov ispisati sve un
 dvije klase. Klasa Item opisuje jedan artikl iz trgovine i ima atribute naziv i cijena. Upravitelj klasa ima metode
 koje omogućavaju unos i ispis unesenih artikala. Vodite računa da upravitelj klasa mora biti implementirana
 primjenom Singleton Patterna.
-Primjer rada programa:
-Artikl 1
-Naziv: HDD
-Cijena: 50
-Da li zelite unijeti jos jedan artikl (d/n): d
-Artikl 2
-Naziv: CPU
-Cijena: 100
-Da li zelite unijeti jos jedan artikl (d/n): n
-HDD – 50
-CPU – 100
+Primjer rada programa:<br/>
+Artikl 1<br/>
+Naziv: HDD<br/>
+Cijena: 50<br/>
+Da li zelite unijeti jos jedan artikl (d/n): d<br/>
+Artikl 2<br/>
+Naziv: CPU<br/>
+Cijena: 100<br/>
+Da li zelite unijeti jos jedan artikl (d/n): n<br/>
+HDD – 50<br/>
+CPU – 100<br/>

@@ -5,8 +5,8 @@ kamionom ili Dostava brodom).
 U main dijelu napisati program putem kojeg korisnim može odabrati vrstu prijevoza za svoju dostavu nakon čega
 će se pozvati odgovarajući Factory koji će kreirati ispravni objekt nad kojim će se pozvati metoda deliver.
 
-Primjer rada programa:
-1 – Kamion
-2 – Brod
-Odaberite vrstu prijevoza za dostavu: 1
-Dostava kamionom
+Primjer rada programa:<br/>
+1 – Kamion<br/>
+2 – Brod<br/>
+Odaberite vrstu prijevoza za dostavu: 1<br/>
+Dostava kamionom<br/>

@@ -9,9 +9,8 @@ Napišite drugu klasu koja mora implementirati metodu za čitanje podataka iz te
 Klasa mora imati i drugu metodu za ispis na ekran svih polaznika koji su završili tečaj iz tekstualne datoteke.
 Prva metoda za čitanje se mora automatski pokrenuti prilikom instanciranja objekta druge klase.
 
-Prezime;Ime;Zavrsio
-Ivic;Ivo;DA
-Maric;Marko;NE
-Anic;Ana;NE
-Peric;Petar;DA
-Stranica 3 od 4
+Prezime;Ime;Zavrsio<br/>
+Ivic;Ivo;DA<br/>
+Maric;Marko;NE<br/>
+Anic;Ana;NE<br/>
+Peric;Petar;DA<br/>
