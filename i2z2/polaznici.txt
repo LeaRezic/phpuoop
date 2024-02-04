@@ -1,0 +1,5 @@
+Prezime;Ime;Zavrsio
+Ivic;Ivo;DA
+Maric;Marko;NE
+Anic;Ana;NE
+Peric;Petar;DA
