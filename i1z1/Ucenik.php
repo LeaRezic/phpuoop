@@ -15,6 +15,7 @@ class Ucenik {
     return $this->prosjek;
   }
 
+  // da se lakše ispiše, ali skroz bi ok bilo imati getere, pa složiti ovaj string gdje nam treba
   public function pripremiZaIspis() {
     return $this->ime . " " . $this->prezime;
   }

@@ -3,9 +3,11 @@
 include("Item.php");
 include("Upravitelj.php");
 
+// getInstance je statička metoda na klasi Upravitelj, da je pozovemo još 100 puta dok se program izvršava, uvijek bismo dobivali isti objekt
 $upravitelj = Upravitelj::getInstance();
 $counter = 1;
 
+// tu u mainu unosimo proizvode, ali mogli smo to raditi i u upravitelju da smo htjeli
 while(true) {
   echo "Proizvod " . $counter++ . "\n";
   $naziv = readline("Naziv: ");

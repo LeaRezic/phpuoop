@@ -12,4 +12,5 @@ $mobitel = new Mobitel($marka, $model, $baterija);
 $punjac = (double)readline("Unesite jačinu punjača u A: ");
 
 echo "------\n";
+// round je PHP-ova matematčika funkcija, ovdje čisto da je ispis ljepši, ali sumnjam da treba
 echo "Potrebno vrijeme punjenja: " . round($mobitel->vrijemePunjenja($punjac), 2) . "h\n";

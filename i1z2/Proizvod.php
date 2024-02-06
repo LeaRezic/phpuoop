@@ -11,6 +11,7 @@ class Proizvod {
     $this->cijena = $cijena;
   }
 
+  // pomoćna metoda koja da vrijednost proizvoda, mogli smo i samo imati getere pa to izračunati u Proizvodi.php
   public function getVrijednost() {
     return $this->kolicina * $this->cijena;
   }

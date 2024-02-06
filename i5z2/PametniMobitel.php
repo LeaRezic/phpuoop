@@ -4,6 +4,8 @@ class PametniMobitel {
   protected $marka;
   protected $model;
   protected $memorija;
+
+  // ovo je kakti boolean, ali zapravo je mogao biti i string 4 ili 5, bitno da možemo riješiti zadatak
   protected $podrzava5g;
 
   public function __construct($marka, $model, $memorija, $podrzava5g) {

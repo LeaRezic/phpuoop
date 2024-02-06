@@ -35,6 +35,7 @@ class Proizvod {
     $this->mjernaJedinica = $mjernaJedinica;
   }
 
+  // mogli smo to s geterima složiti gdje nam treba, ovo je možda malo kraće ali nepotrebno
   public function pripremiZaIspis() {
     return $this->getNaziv() . ", " . $this->getCijena() . "kn, " . $this->getMjernaJedinica();
   }
