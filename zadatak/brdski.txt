@@ -1,0 +1,6 @@
+BRDSKI
+model;cijena;fullSus;dropper
+Orbea;1000;NE;DA
+Orbea;3000;DA;DA
+Sworks;2000;NE;NE
+Cannyon;1000;NE;DA

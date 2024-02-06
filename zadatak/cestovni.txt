@@ -1,0 +1,6 @@
+CESTOVNI
+model;cijena;tezina
+Orbea;1000;12
+Orbea;3000;11
+Sworks;2000;9
+Cannyon;1000;14
