@@ -37,8 +37,8 @@ class Proizvodi {
 
   public function Ispis() {
     echo "--- Ispis proizvoda ---\n";
-    foreach ($this->proizvodi as $key=>$proizvod) {
-      echo $key + 1 . ". " . $proizvod->pripremiZaIspis() . "\n";
+    foreach ($this->proizvodi as $indeksProizvoda => $proizvod) {
+      echo $indeksProizvoda + 1 . ". " . $proizvod->pripremiZaIspis() . "\n";
     }
   }
 }
