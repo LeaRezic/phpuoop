@@ -7,7 +7,7 @@ abstract class Proizvod {
 
   abstract function cijenaPDV($stopaPDV);
 
-  abstract function preracunEur($tecajEur = 7.543);
+  abstract function preracunEur($tecajEur);
 
   public function getNaziv() {
     return $this->naziv;

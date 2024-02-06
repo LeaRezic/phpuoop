@@ -22,8 +22,7 @@ class Polaznici {
       if ($brLinije == 0 || count($detalji) != 3) {
         continue;
       } else {
-        $detaljiInd = array_values($detalji);
-        $this->polaznici[] = new Polaznik($detaljiInd[0], $detaljiInd[1], $detaljiInd[2] == "DA");
+        $this->polaznici[] = new Polaznik($detalji[0], $detalji[1], $detalji[2] == "DA");
       }
     }
   }

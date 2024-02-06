@@ -6,7 +6,7 @@ class HrTime extends Time {
   }
 
   public function Split() {
-    $parts = array_values(explode(":", $this->show()));
+    $parts = explode(":", $this->show());
     echo "H=" . $parts[0] . ", M=" . $parts[1] . "\n";
   }
 }
